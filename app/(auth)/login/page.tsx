@@ -14,7 +14,7 @@ export default function LoginPage() {
   const router = useRouter()
   const { login } = useAuth()
   const [remember, setRemember] = useState(true)
-  const [email, setEmail] = useState("maria@example.com")
+  const [email, setEmail] = useState("andres@example.com")
   const [password, setPassword] = useState("SafePad#2025")
   const [error, setError] = useState<string | null>(null)
   const [loading, setLoading] = useState(false)
@@ -126,7 +126,7 @@ export default function LoginPage() {
             </Button>
 
             <div className="rounded-md bg-zinc-50 p-2 text-xs text-zinc-600">
-              Demo: maria@example.com / SafePad#2025
+              Demo: andres@example.com / SafePad#2025
             </div>
           </form>
         </div>
