@@ -42,7 +42,7 @@ export default function DashboardPage() {
           <CardContent className="p-4">
             <div className="flex items-center gap-4">
               <Image
-                src={"/placeholder.svg?height=90&width=120&query=iPad%20white%20card"}
+                src={"/public/imagenipad.png"}
                 alt="iPad 11va"
                 width={120}
                 height={90}
