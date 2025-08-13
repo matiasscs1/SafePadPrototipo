@@ -49,7 +49,7 @@ export default function MiIpadPage() {
           <CardContent className="p-4">
             <div className="flex items-center gap-4">
               <Image
-                src={"/placeholder.svg?height=90&width=140&query=iPad%20device%20card%20white"}
+                src={"/ipadImagne.png"}
                 alt="Mi iPad"
                 width={140}
                 height={90}
